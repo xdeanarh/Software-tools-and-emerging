@@ -1,6 +1,8 @@
 import random
 from typing import List
 
+
+
 def generate_numbers(count: int, lower: int = 1, upper: int = 100) -> List[int]:
     """Generate a list of random integers."""
     return [random.randint(lower, upper) for _ in range(count)]
