@@ -1,8 +1,6 @@
 import random
 from typing import List
 
-
-
 def generate_numbers(count: int, lower: int = 1, upper: int = 100) -> List[int]:
     """Generate a list of random integers."""
     return [random.randint(lower, upper) for _ in range(count)]
@@ -20,7 +18,6 @@ def find_max(numbers: List[int]) -> int:
     return max(numbers)
 
 if __name__ == "__main__":
-    # Example workflow (can be reused in other projects)
     nums = generate_numbers(10)
     print("Generated numbers:", nums)
     print("Average:", calculate_average(nums))
