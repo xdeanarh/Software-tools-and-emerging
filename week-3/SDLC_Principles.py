@@ -23,3 +23,4 @@ if __name__ == "__main__":
     print("Generated numbers:", nums)
     print("Average:", calculate_average(nums))
     print("Max:", find_max(nums))
+
